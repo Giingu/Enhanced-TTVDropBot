@@ -7,8 +7,8 @@
 <p>
 Twitch has recently updated their drop claiming system, now including anti-bot detection. In the meantime, while the community finds a way to bypass it or new methods to claim them efficiently, we suggest you disable AutoClaim.
 <h6>Don't worry, the bot will still farm the watch time; you will just need to manually claim them!</h6></p>
-<h1>Bypass method</h1>
-<h3>To automatically claim drops, install <a href="https://chrome.google.com/webstore/detail/automatic-twitch-drops-mo/kfhgpagdjjoieckminnmigmpeclkdmjm">Automatic Twitch</a> on your browser and leave a twitch tab open permanently while TTVDropBot bot is running.</h3>
+<h2>#1 Bypass method</h2>
+<h3>To automatically claim drops, install <a href="https://chrome.google.com/webstore/detail/automatic-twitch-drops-mo/kfhgpagdjjoieckminnmigmpeclkdmjm">Automatic Twitch</a> on your browser and leave a twitch tab open while TTVDropBot bot is running.</h3>
 <h1></h1>
 <p align="center">
   <a href="https://github.com/PockySweet/New-TTVDropBot/issues">
