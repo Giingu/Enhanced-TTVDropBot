@@ -6,11 +6,12 @@
 <img src="https://i.imgur.com/eRx6oIV.png" alt="Discord" height="40">
 <p>
 Twitch has recently updated their drop claiming system, now including anti-bot detection. In the meantime, while the community finds a way to bypass it or new methods to claim them efficiently, we suggest you disable AutoClaim.
-<h6>Don't worry, the bot will still farm the watch time; you will just need to manually claim them!</h6></p>
-<h2>#1 Bypass method</h2>
-<h3>To automatically claim drops, install <a href="https://chrome.google.com/webstore/detail/automatic-twitch-drops-mo/kfhgpagdjjoieckminnmigmpeclkdmjm">Automatic Twitch</a> on your browser and leave a twitch tab open while TTVDropBot bot is running.</h3>
 
-<img src="https://user-images.githubusercontent.com/79219650/194574016-20aaf8b4-ea28-4c86-b1da-c07aa82d461b.png" alt="Automatic Twitch">
+<h6>Don't worry, the bot will still farm the watch time; you will just need to manually claim them!</h6></p>
+
+<h3>❗ UPDATE: We found a workaround!</h3>
+🩹 🡢 <a href="1%EF%B8%8F%E2%83%A3%EF%B8%8F-bypass-anti-bot-for-autoclaim" title="Optional title">Follow these steps carefully to bypass all issues</a>
+
 <h1></h1>
 <p align="center">
   <a href="https://github.com/PockySweet/New-TTVDropBot/issues">
@@ -53,6 +54,22 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 
 <br />
 
+<h2>1️⃣🛠️ Bypass anti-bot for autoclaim</h2>
+To automatically claim drops, install <a href="https://chrome.google.com/webstore/detail/automatic-twitch-drops-mo/kfhgpagdjjoieckminnmigmpeclkdmjm">Automatic Twitch</a> on your browser and leave a twitch tab open while TTVDropBot bot is running.
+<br><br>
+<img src="https://user-images.githubusercontent.com/79219650/194574016-20aaf8b4-ea28-4c86-b1da-c07aa82d461b.png" alt="Automatic Twitch">
+<h2>2️⃣🛠️ Work Around for Unable to log in </h2>
+<ul>
+<li> Follow these steps
+<ul>
+<li>Create a file called **twitch-session.json** under the same directory of the application</li>
+<li>Paste this inside the file `[{"name":"auth-token","value":"replaceme"}]`</li>
+<li>Goto twitch drops dashboard, <a href="https://www.twitch.tv/drops/inventory">Here</a></li>
+<li>Get a browser addon that can look at cookies, ( Addons: <a href="https://addons.opera.com/en/extensions/details/cookie-editor-2/">Opera</a>, <a href="https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=en">Chrome</a>, <a href="https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/">Firefox</a>, <a href="https://microsoftedge.microsoft.com/addons/detail/cookieeditor/neaplmfkghagebokkhpjpoebhdledlfi">Edge</a> )</li>
+<li>Copy the `auth-token` and replace `replaceme` with your token</li><br>
+<img src="https://i.imgur.com/1kj32dP.png" alt="Automatic Twitch">
+<li>Save and close the editor you used then relaunch the application.</li>
+</ul></li></ul>
 
 ## ⚡ **Installation**
 
@@ -476,9 +493,10 @@ Have fun and Enjoy! 😃
 Discord Server: https://discord.gg/rV26FZ2upF
 
 **_Slow Response:_**<br/>
-Discord: - Zarg#8467
+Discord: - Vyper#1964
 
 
 > Distributed under the MIT License. See LICENSE for more information.⚠️
 
-_Made with a lot of ❤️❤️ by **[@PockySweet](https://github.com/PockySweet)**_
+_Modified with a lot of ❤️❤️ by **[@PockySweet](https://github.com/PockySweet)**_<br>
+_Originally made by **[@Zarg](https://github.com/Zaarrg)**_
