@@ -516,4 +516,5 @@ Discord: - Vyper#1964
 > Distributed under the MIT License. See LICENSE for more information.⚠️
 
 _Modified with a lot of ❤️❤️ by **[@PockySweet](https://github.com/PockySweet)**_<br>
+_Log-in tutorial & claim switch by **[@cyberofficial](https://github.com/cyberofficial)**_<br>
 _Originally made by **[@Zarg](https://github.com/Zaarrg)**_
