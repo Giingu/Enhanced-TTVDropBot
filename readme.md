@@ -54,12 +54,13 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 * Send Discord Webhooks to your server.
 * Host 24/7 on heroku.
 
-## 💟 **What is new in this enhanced version?**
-* Added Argument for Skipping Channel Points
-* Better designs and cooler readme 😎
+## 🔎 **What is new in this enhanced version?**
+* Added argument & flags for skipping channel points
+* Better designs, information and cooler readme 😎
 * Attached bypasses for automatic drop claiming & log-in errors [below](#1%EF%B8%8F%E2%83%A3%EF%B8%8F-bypass-anti-bot-for-autoclaim)
 * New logs, webhook messages and removed useless ones causing cooldowns
 * Fixed the drop claiming crashes, now the bot will move to a new game instead
+* Modified the point claiming system slightly to mitigate some crashes
 
 <br />
 
