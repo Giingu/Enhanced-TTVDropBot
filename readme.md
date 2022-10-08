@@ -45,18 +45,20 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 * Makes your twitch drop experience as easy as possible.
 * No need to watch the stream in a browser, fully uses twitch inner gql.
 * No need to care about who is online and when.
+* Farm gifted subscriptions on any channel.
 * Saves your twitch session providing you autologin.
+* Collect endless points on your favorite channels.
 * Can watch every Twitch Drop / Campaign available.
 * Automatically claims your Drops.
 * Switches automatically to other games or drops if drop is claimed/claimable or offline.
 * Send Discord Webhooks to your server.
 * Host 24/7 on heroku.
 
-## **What is new in this enhanced version?**
+## 💟 **What is new in this enhanced version?**
 * Added Argument for Skipping Channel Points
-* New logs, webhookm messages and more information
 * Better designs and cooler readme 😎
 * Attached bypasses for automatic drop claiming & log-in errors [below](#1%EF%B8%8F%E2%83%A3%EF%B8%8F-bypass-anti-bot-for-autoclaim)
+* New logs, webhook messages and removed useless ones causing cooldowns
 * Fixed the drop claiming crashes, now the bot will move to a new game instead
 
 <br />
