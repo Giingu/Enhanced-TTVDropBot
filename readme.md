@@ -56,43 +56,6 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 
 ## ⚡ **Installation**
 
-<h3 align="center" >Windows</h3>
-
-1. Download the windows executable from the  **[build branch](https://github.com/PockySweet/New-TTVDropBot/tree/build)** or **[release page](https://github.com/PockySweet/New-TTVDropBot/releases)**.
-2. Move the executable to a folder.
-3. **Execute** the `TTVDropBot.exe`. The **settings** and **twitch-session** will be generated right beside the executable.
-
-<h3 align="center">Linux</h3>
-
-1. Download the linux executable from the  **[build branch](https://github.com/PockySweet/New-TTVDropBot/tree/build)** or **[release page](https://github.com/PockySweet/New-TTVDropBot/releases)**.
-2. Move the executable to a folder.
-3. Give the `TTVDropBot-linux-x64` file permission to execute via chmod if needed.
-    ```bash
-    chmod +x ./New-TTVDropBot-linux-x64
-    ```
-
-4. **Execute** the `TTVDropBot-linux-x64`. The **settings** and **twitch-session** will be generated right beside the executable.
-
-    ```bash
-    ./New-TTVDropBot-linux-x64
-    ```
-<h3 align="center">Ubuntu</h3>
-<b>Using Bot with No GUI - Only Command Line</b>
-
-1. Download the linux executable from the  **[build branch](https://github.com/PockySweet/New-TTVDropBot/tree/build)** or **[release page](https://github.com/PockySweet/New-TTVDropBot/releases)**.
-2. Drag and Drop a `settings.json` and `twitch-session.json` file right beside the executable.
-3. Make sure you have set `displayless` to `true` in your settings.json
-4. **Execute** the `TTVDropBot-linux-x64`.
-
-    ```bash
-    ./New-TTVDropBot-linux-x64
-    ```
-⚠️ _If you want to specifiy wich games to watch use the **Prioritylist** setting_ ⚠️
-
-⚠️ _If you want to watch Custom Channels drag and drop a `customchannels.json` to your executable location and set `ForceCustomChannel` in settings.json to `true`_ ⚠️
-
-⚠️ _If you can't seem to get any progress on drops "always stuck" try loging in instead of copying twitch-session.json._ ⚠️
-
 <h3 align="center">Npm</h3>
 
 1. Clone the **[Repository](https://github.com/PockySweet/New-TTVDropBot)**.
