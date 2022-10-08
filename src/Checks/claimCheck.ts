@@ -45,9 +45,13 @@ export async function claimableCheck(CurrentDrop: Drop, autoclaim: boolean, only
                             "dropInstanceID": timedrop.self.dropInstanceID.toString()
                         }
                     }
-                    await TwitchGQL._SendQuery("DropsPage_ClaimDropRewards", opts, 'a455deea71bdc9015b78eb49f4acfbce8baa7ccbedd28e549bb025bd0f751930', 'OAuth ' + userdata.auth_token, true, {}, true)
-                    if (autoclaim) winston.info(chalk.gray('Claimed ' + chalk.green(timedrop.name)), {event: "claim"})
-                    if (preconditions && !autoclaim) winston.info(chalk.gray('Claimed ' + chalk.green(timedrop.name) + ' because otherwise cant watch next drop...'), {event: "claim"})
+                    try {
+                        await TwitchGQL._SendQuery("DropsPage_ClaimDropRewards", opts, 'a455deea71bdc9015b78eb49f4acfbce8baa7ccbedd28e549bb025bd0f751930', 'OAuth ' + userdata.auth_token, true, {}, true)
+                        if (autoclaim) winston.info(chalk.gray('Claimed ' + chalk.green(timedrop.name)), {event: "claim"})
+                        if (preconditions && !autoclaim) winston.info(chalk.gray('Claimed ' + chalk.green(timedrop.name) + ' because otherwise cant watch next drop...'), {event: "claim"})
+                    } catch (e) {
+                        if (autoclaim) winston.info(chalk.gray('There was an error trying to claim ' + chalk.green(timedrop.name) + ' Will retry again.'), {event: "claim"})
+                    }
                 }
             }
         }
