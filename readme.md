@@ -55,20 +55,27 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 <br />
 
 <h2>1️⃣🛠️ Bypass anti-bot for autoclaim</h2>
-To automatically claim drops, install <a href="https://chrome.google.com/webstore/detail/automatic-twitch-drops-mo/kfhgpagdjjoieckminnmigmpeclkdmjm">Automatic Twitch</a> on your browser and leave a twitch tab open while TTVDropBot bot is running.
-<br><br>
+<ul>
+<li> How to automatically claim drops
+<ul>
+<li>Install <a href="https://chrome.google.com/webstore/detail/automatic-twitch-drops-mo/kfhgpagdjjoieckminnmigmpeclkdmjm">Automatic Twitch</a> on your browser</li>
+<li>Goto twitch drops dashboard, <a href="https://www.twitch.tv/drops/inventory">Here</a></li>
+<li>Make sure no extensions is able to kill the tab.</li>
+<li>Leave a twitch tab open while TTVDropBot bot is running.</li><br>
 <img src="https://user-images.githubusercontent.com/79219650/194574016-20aaf8b4-ea28-4c86-b1da-c07aa82d461b.png" alt="Automatic Twitch">
+</ul></li></ul>
+
 <h2>2️⃣🛠️ Work Around for Unable to log in </h2>
 <ul>
 <li> Follow these steps
 <ul>
-<li>Create a file called **twitch-session.json** under the same directory of the application</li>
-<li>Paste this inside the file `[{"name":"auth-token","value":"replaceme"}]`</li>
+<li>Create a file called <b>twitch-session.json</b> under the same directory of the application</li>
+<li>Paste this inside the file <code>[{"name":"auth-token","value":"replaceme"}]</code></li>
 <li>Goto twitch drops dashboard, <a href="https://www.twitch.tv/drops/inventory">Here</a></li>
 <li>Get a browser addon that can look at cookies, ( Addons: <a href="https://addons.opera.com/en/extensions/details/cookie-editor-2/">Opera</a>, <a href="https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=en">Chrome</a>, <a href="https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/">Firefox</a>, <a href="https://microsoftedge.microsoft.com/addons/detail/cookieeditor/neaplmfkghagebokkhpjpoebhdledlfi">Edge</a> )</li>
-<li>Copy the `auth-token` and replace `replaceme` with your token</li><br>
+<li>Copy the <code>auth-token</code> and replace <code>replaceme</code> from above with your token</li><br>
 <img src="https://i.imgur.com/1kj32dP.png" alt="Automatic Twitch">
-<li>Save and close the editor you used then relaunch the application.</li>
+<li>Save and close the editor you used then relaunch the bot.</li>
 </ul></li></ul>
 
 ## ⚡ **Installation**
