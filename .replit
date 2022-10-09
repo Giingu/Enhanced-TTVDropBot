@@ -1,5 +1,5 @@
 compile = "./.config/build.sh"
-run = "node --enable-source-maps .build/index.js"
+run = "npm install && npm run start:production"
 entrypoint = "index.ts"
 
 [languages.typescript]
