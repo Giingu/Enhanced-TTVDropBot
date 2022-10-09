@@ -11,7 +11,11 @@
       </a>
       <a href="https://deploy.cloud.run?git_repo=https://github.com/PockySweet/Enhanced-TTVDropBot">
 <img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/GoogleDeploy.svg" alt="Deploy on Google Cloud" height="40">
-      </a></p>
+      </a>
+      <a href="https://replit.com/new/github/PockySweet/Enhanced-TTVDropBot">
+<img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/ReplitDeploy.svg" alt="Run on Repl.it" height="40">
+      </a>
+      </p>
 
 <h1></h1>
 <img src="https://i.imgur.com/eRx6oIV.png" alt="Discord" height="40">
