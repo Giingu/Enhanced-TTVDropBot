@@ -10,7 +10,7 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 <h6>Don't worry, the bot will still farm the watch time; you will just need to manually claim them!</h6></p>
 
 <h3>❗ UPDATE: We found a workaround!</h3>
-🩹 🡢 <a href="1%EF%B8%8F%E2%83%A3%EF%B8%8F-bypass-anti-bot-for-autoclaim" title="Optional title">Follow these steps carefully to bypass all issues</a>
+🩹 🡢 <a href="#1%EF%B8%8F%E2%83%A3%EF%B8%8F-bypass-anti-bot-for-autoclaim" title="Optional title">Follow these steps carefully to bypass all issues</a>
 
 <h1></h1>
 <p align="center">
