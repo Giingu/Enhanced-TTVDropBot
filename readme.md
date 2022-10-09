@@ -4,15 +4,19 @@
 <img src="https://i.imgur.com/1GsJiTG.png" alt="Discord"><h3 align="center">Farms automatically Twitch Drops, Points & Subscriptions for you!</h3></p>
 <p align="center">
 <a href="https://heroku.com/deploy?template=https://github.com/PockySweet/Enhanced-TTVDropBot/tree/main">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="40">
+  <img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/HerokuDeploy.svg" alt="Deploy" height="40">
 </a>
       <a href="https://railway.app/new/template/WLQZfq?referralCode=ljmXT2">
-<img src="https://railway.app/button.svg" alt="Deploy on Railway">
+<img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/RailwayDeploy.svg" alt="Deploy on Railway" height="40">
+      </a>
+      <a href="https://deploy.cloud.run?git_repo=https://github.com/PockySweet/Enhanced-TTVDropBot">
+<img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/GoogleDeploy.svg" alt="Deploy on Google Cloud" height="40">
       </a></p>
 
 <h1></h1>
 <img src="https://i.imgur.com/eRx6oIV.png" alt="Discord" height="40">
 <p>
+
 Twitch has recently updated their drop claiming system, now including anti-bot detection. In the meantime, while the community finds a way to bypass it or new methods to claim them efficiently, we suggest you disable AutoClaim.
 
 <h6>Don't worry, the bot will still farm the watch time; you will just need to manually claim them!</h6></p>
