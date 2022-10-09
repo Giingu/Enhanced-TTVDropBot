@@ -84,15 +84,47 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 <li>Goto twitch drops dashboard, <a href="https://www.twitch.tv/drops/inventory">Here</a></li>
 <li>Get a browser addon that can look at cookies, ( Addons: <a href="https://addons.opera.com/en/extensions/details/cookie-editor-2/">Opera</a>, <a href="https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=en">Chrome</a>, <a href="https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/">Firefox</a>, <a href="https://microsoftedge.microsoft.com/addons/detail/cookieeditor/neaplmfkghagebokkhpjpoebhdledlfi">Edge</a> )</li>
 <li>Copy the <code>auth-token</code> and replace <code>replaceme</code> from above with your token</li><br>
-<img src="https://i.imgur.com/1kj32dP.png" alt="Automatic Twitch">
+<img src="https://i.imgur.com/1kj32dP.png" alt="Cookie Token">
 <li>Save and close the editor you used then relaunch the bot.</li>
 </ul></li></ul>
 
 ## ⚡ **Installation**
+<p><img src="https://user-images.githubusercontent.com/79219650/194732116-2a28b6b3-934c-4e16-869f-c8ccf367216e.png" alt="Docker" width="200"></p>
 
-<h3 align="center">Npm</h3>
+1. Get the bot started
 
-1. Clone the **[Repository](https://github.com/PockySweet/New-TTVDropBot)**.
+    ```bash
+    docker run --rm -it ghcr.io/PockySweet/ttvdropbot/ttvdropbot:latest node ./build/index.js --displayless
+    ```
+
+2. Get your token and then exit the bot with `Ctrl + C`
+
+<li>Go to twitch drops dashboard, <a href="https://www.twitch.tv/drops/inventory">Here</a></li>
+<li>Get a browser addon that can look at cookies, ( Addons: <a href="https://addons.opera.com/en/extensions/details/cookie-editor-2/">Opera</a>, <a href="https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=en">Chrome</a>, <a href="https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/">Firefox</a>, <a href="https://microsoftedge.microsoft.com/addons/detail/cookieeditor/neaplmfkghagebokkhpjpoebhdledlfi">Edge</a> )</li>
+<li>Copy the <code>auth-token</code> and replace <code>TokenFromStep2</code> in step 3 with your token<br><br>
+<img src="https://user-images.githubusercontent.com/79219650/194731747-fcd80339-404a-4789-8251-8f8b343b8c43.png" alt="Cookie Token"><br>
+<img src="https://user-images.githubusercontent.com/79219650/194731710-1ed1dbc9-5f58-498c-8aaa-011657d1f3df.png" alt="Use Token"></li><br>
+
+3. Create the container 
+
+    ```bash
+    docker run -d --name ttvdropbot \
+    -e ttvdropbot_displayless=true \
+    -e ttvdropbot_token=TokenFromStep2 \
+    -e ttvdropbot_games="Sea_of_Thieves Rust Lost_Ark No_Man's_Sky" \
+    -e ttvdropbot_autoclaim=true \
+    -e ttvdropbot_autopoints=false \
+    ghcr.io/PockySweet/ttvdropbot/ttvdropbot:latest
+    ```
+------------
+
+<p><img src="https://user-images.githubusercontent.com/79219650/194731990-3b5f4081-bd3b-4af4-a740-cfe44dc2dc50.png" alt="NPM+Git" width="200"></p>
+
+0. Install **[GIT](https://github.com/git-guides/install-git)** on your computer<br>
+Learn how to install it [here](https://github.com/git-guides/install-git)
+
+1. Open a terminal (CMD, PowerShell, Shell) <br>
+1.5 Clone the **[Repository](https://github.com/PockySweet/New-TTVDropBot)** using the following command.
     ```bash
     git clone https://github.com/PockySweet/New-TTVDropBot
     ```
@@ -108,29 +140,30 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
    OR
     npm run start:dev
     ```
+------------
 
-<h3 align="center">Docker</h3>
+<p><img src="https://user-images.githubusercontent.com/79219650/194732062-568f67d2-7276-4bba-8ec7-b5aaca802fe3.png" alt="NPM Only" width="200"></p>
 
-1. Get your auth token
+0. Download the **[Repository](https://github.com/PockySweet/Enhanced-TTVDropBot/releases/download/v1.4.0/Enhanced-TTVDropBot.zip)** & extract it on a folder<br>
+You can download the latest version with the instructions on the image<br>
+Or through our releases by [clicking here](https://github.com/PockySweet/Enhanced-TTVDropBot/releases/download/v1.4.0/Enhanced-TTVDropBot.zip)
+<img src="https://user-images.githubusercontent.com/79219650/194731003-4a953740-6951-43df-b2ed-28ea919ff87e.png" alt="How to download" height="240">
 
+1. Open a console / terminal (CMD, PowerShell, Shell) and go to the location of the extracted folder.
     ```bash
-    docker run --rm -it ghcr.io/PockySweet/ttvdropbot/ttvdropbot:latest node ./build/index.js --showtoken
+    cd <paste here location of the folder>
     ```
 
-2. Login to Twitch, copy your auth token, and then exit the container with `Ctrl + C`
-
-3. Create the container
-
+2. Install NPM packages by using the following command.
     ```bash
-    docker run -d --name ttvdropbot \
-    -e ttvdropbot_displayless=true \
-    -e ttvdropbot_token=TokenFromStep1 \
-    -e ttvdropbot_games="Sea_of_Thieves Rust Lost_Ark No_Man's_Sky" \
-    -e ttvdropbot_autoclaim=true \
-    -e ttvdropbot_autopoints=false \
-    ghcr.io/PockySweet/ttvdropbot/ttvdropbot:latest
+    npm install
     ```
----
+3. Run the bot via npm scripts with these commands.
+    ```bash
+    npm run start:production
+   OR
+    npm run start:dev
+    ```
 
 ## 📚 **How to use the Bot?**
 
