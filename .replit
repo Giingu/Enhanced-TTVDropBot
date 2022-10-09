@@ -5,7 +5,7 @@ entrypoint = "index.ts"
 [packager]
 language = "nodejs"
 
-# Environment variables (ADD YOUR TWITCH TOKEN ON SECRETS)
+# Environment variables (ADD YOUR TWITCH TOKEN ON THE REPLIT SECRETS)
 [env]
 ttvdropbot_autoclaim= "false"
 ttvdropbot_autopoints= "false"
