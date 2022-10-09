@@ -71,7 +71,7 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 <li>Install <a href="https://chrome.google.com/webstore/detail/automatic-twitch-drops-mo/kfhgpagdjjoieckminnmigmpeclkdmjm">Automatic Twitch</a> on your browser</li>
 <li>Goto twitch drops dashboard, <a href="https://www.twitch.tv/drops/inventory">Here</a></li>
 <li>Make sure no extensions is able to kill the tab.</li>
-<li>Leave a twitch tab open while TTVDropBot is running.</li><br>
+<li>Leave the twitch tab open while TTVDropBot is running.</li><br>
 <img src="https://user-images.githubusercontent.com/79219650/194574016-20aaf8b4-ea28-4c86-b1da-c07aa82d461b.png" alt="Automatic Twitch">
 </ul></li></ul>
 
