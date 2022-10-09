@@ -15,6 +15,9 @@
       <a href="https://replit.com/new/github/PockySweet/Enhanced-TTVDropBot">
 <img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/ReplitDeploy.svg" alt="Run on Repl.it" height="40">
       </a>
+<a href="https://render.com/deploy?repo=https://github.com/PockySweet/Enhanced-TTVDropBot">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" height="40">
+</a>
       </p>
 
 <h1></h1>
