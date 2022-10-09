@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: enhanced-ttvdropbot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run start:replit
+    autoDeploy: true
+    envVars:
+      - key: ttvdropbot_autoclaim
+        value: false
+      - key: ttvdropbot_autopoints
+        value: false
+      - key: ttvdropbot_interval
+        value: "60000"
+      - key: ttvdropbot_retryinterval
+        value: "60000"
