@@ -4,19 +4,19 @@
 <img src="https://i.imgur.com/1GsJiTG.png" alt="Discord"><h3 align="center">Farms automatically Twitch Drops, Points & Subscriptions for you!</h3></p>
 <p align="center">
 <a href="https://heroku.com/deploy?template=https://github.com/PockySweet/Enhanced-TTVDropBot/tree/main">
-  <img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/HerokuDeploy.svg" alt="Deploy" height="40">
+  <img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/HerokuDeploy.svg" alt="Deploy" height="30">
 </a>
       <a href="https://railway.app/new/template/WLQZfq?referralCode=ljmXT2">
-<img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/RailwayDeploy.svg" alt="Deploy on Railway" height="40">
+<img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/RailwayDeploy.svg" alt="Deploy on Railway" height="30">
       </a>
       <a href="https://deploy.cloud.run?git_repo=https://github.com/PockySweet/Enhanced-TTVDropBot">
-<img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/GoogleDeploy.svg" alt="Deploy on Google Cloud" height="40">
+<img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/GoogleDeploy.svg" alt="Deploy on Google Cloud" height="30">
       </a>
       <a href="https://replit.com/new/github/PockySweet/Enhanced-TTVDropBot">
-<img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/ReplitDeploy.svg" alt="Run on Repl.it" height="40">
+<img src="https://raw.githubusercontent.com/PockySweet/repo-resources/main/buttons/ReplitDeploy.svg" alt="Run on Repl.it" height="30">
       </a>
 <a href="https://render.com/deploy?repo=https://github.com/PockySweet/Enhanced-TTVDropBot">
-<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" height="40">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" height="30">
 </a>
       </p>
 
