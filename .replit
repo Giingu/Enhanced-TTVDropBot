@@ -1,5 +1,5 @@
 compile = "./.config/build.sh"
-run = "npm run start:replit"
+run = "npm i && npm run start:replit"
 entrypoint = "index.ts"
 
 [packager]
