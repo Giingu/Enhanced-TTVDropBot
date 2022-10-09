@@ -106,7 +106,7 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 1. Get the bot started
 
     ```bash
-    docker run --rm -it ghcr.io/PockySweet/ttvdropbot/ttvdropbot:latest node ./build/index.js --displayless
+    docker run --rm -it ghcr.io/pockysweet/ttvdropbot/ttvdropbot:latest node ./build/index.js --displayless
     ```
 
 2. Get your token and then exit the bot with `Ctrl + C`
