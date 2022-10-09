@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/functions/get/getCurrentDrop.ts"],
+  "sourcesContent": ["import {timebased} from  \"../../Data/userdata\";\nimport {userdata} from \"../../index\"\nexport async function getCurrentDrop() {\n    let CurrentDrop:Drop = {\n        dropid: '',\n        dropname: '',\n        Connected: false,\n        allowedchannels: [],\n        timebasedrop: [],\n        live: false,\n        foundlivech: [],\n        isClaimed: false\n    };\n    for (const drop of userdata.drops) {\n        if (userdata.startDrop === drop.dropname) {\n            CurrentDrop = drop;\n        }\n    }\n    return CurrentDrop\n}\n\nexport type Drop = {\n    dropid: string,\n    dropname: string,\n    Connected: boolean,\n    allowedchannels: Array<Channel>,\n    timebasedrop: Array<timebased>,\n    live: boolean,\n    foundlivech: Array<string>,\n    isClaimed: boolean\n}\n\ntype Channel = {\n    id: string,\n    displayName: string,\n    name: string,\n    __typename: string\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AACA,eAAuB;AACvB,gCAAuC;AACnC,MAAI,cAAmB;AAAA,IACnB,QAAQ;AAAA,IACR,UAAU;AAAA,IACV,WAAW;AAAA,IACX,iBAAiB;AAAA,IACjB,cAAc;AAAA,IACd,MAAM;AAAA,IACN,aAAa;AAAA,IACb,WAAW;AAAA;AAEf,aAAW,QAAQ,kBAAS,OAAO;AAC/B,QAAI,kBAAS,cAAc,KAAK,UAAU;AACtC,oBAAc;AAAA;AAAA;AAGtB,SAAO;AAAA;",
+  "names": []
+}

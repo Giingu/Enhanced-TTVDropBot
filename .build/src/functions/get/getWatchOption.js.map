@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/functions/get/getWatchOption.ts"],
+  "sourcesContent": ["import {userdata} from \"../../index\" ;\n\nconst inquirer = require(\"inquirer\");\n\n\nexport default async function () {\n    type Watch_Answer = {\n        watchoptions: string\n    }\n    if (!userdata.settings.displayless) {\n        let options = [\"Twitch Drops\", \"Custom Channels\"]\n        await inquirer\n            .prompt([\n                {\n                    type: 'list',\n                    name: 'watchoptions',\n                    message: 'What do u wanna watch?',\n                    choices: options,\n                },\n            ])\n            .then(async (answer: Watch_Answer) => {\n                userdata.watch_option = answer.watchoptions\n            });\n        return userdata.watch_option\n    } else {\n        userdata.watch_option = \"Twitch Drops\"\n    }\n\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA,eAAuB;AAEvB,MAAM,WAAW,QAAQ;AAGzB,wCAAiC;AAI7B,MAAI,CAAC,kBAAS,SAAS,aAAa;AAChC,QAAI,UAAU,CAAC,gBAAgB;AAC/B,UAAM,SACD,OAAO;AAAA,MACJ;AAAA,QACI,MAAM;AAAA,QACN,MAAM;AAAA,QACN,SAAS;AAAA,QACT,SAAS;AAAA;AAAA,OAGhB,KAAK,OAAO,WAAyB;AAClC,wBAAS,eAAe,OAAO;AAAA;AAEvC,WAAO,kBAAS;AAAA,SACb;AACH,sBAAS,eAAe;AAAA;AAAA;",
+  "names": []
+}

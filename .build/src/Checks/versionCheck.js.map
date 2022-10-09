@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/Checks/versionCheck.ts"],
+  "sourcesContent": ["import {retryConfig} from \"../utils/util\";\n\nconst winston = require(\"winston\");\nconst axios = require(\"axios\");\nconst chalk = require(\"chalk\");\n\nexport default async function (version: string) {\n\n    type Data = {\n        data: Object\n    }\n\n    const url = 'http://144.91.124.143:3004/ttvdropbot-dev';\n    const req = await axios.get(url, {raxConfig: retryConfig}).then((data: Data) => {\n            return data.data;\n        }).catch((err: any) => {\n            winston.error(\"ERROR: Could not check the version...\")\n            throw err\n    });\n\n    if (req.version !== version) {\n        winston.silly(\" \")\n        winston.info(chalk.green(\"New Version to download available...\") + \" | \" + chalk.gray(\"Your Version: \") +  chalk.magenta(version + \" (main)\") + \" | \" + chalk.gray(\"Newest Version: \") +  chalk.magenta(req.version))\n    }\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA,kBAA0B;AAE1B,MAAM,UAAU,QAAQ;AACxB,MAAM,QAAQ,QAAQ;AACtB,MAAM,QAAQ,QAAQ;AAEtB,oCAA+B,SAAiB;AAM5C,QAAM,MAAM;AACZ,QAAM,MAAM,MAAM,MAAM,IAAI,KAAK,EAAC,WAAW,2BAAc,KAAK,CAAC,SAAe;AACxE,WAAO,KAAK;AAAA,KACb,MAAM,CAAC,QAAa;AACnB,YAAQ,MAAM;AACd,UAAM;AAAA;AAGd,MAAI,IAAI,YAAY,SAAS;AACzB,YAAQ,MAAM;AACd,YAAQ,KAAK,MAAM,MAAM,0CAA0C,QAAQ,MAAM,KAAK,oBAAqB,MAAM,QAAQ,UAAU,aAAa,QAAQ,MAAM,KAAK,sBAAuB,MAAM,QAAQ,IAAI;AAAA;AAAA;",
+  "names": []
+}

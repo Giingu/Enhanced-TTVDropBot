@@ -1,27 +1,13 @@
 compile = "./.config/build.sh"
-run = "npm install && npm run start:production"
+run = "npm install && node ./build/index.js --displayless"
 entrypoint = "index.ts"
-
-[languages.typescript]
-pattern = "**/{*.ts,*.js,*.tsx,*.jsx}"
-syntax = "typescript"
-
-[languages.typescript.languageServer]
-start = [ "typescript-language-server", "--stdio" ]
 
 [packager]
 language = "nodejs"
 
-[packager.features]
-enabledForHosting = false
-packageSearch = true
-guessImports = true
-
+# Environment variables (ADD YOUR TWITCH TOKEN ON SECRETS)
 [env]
-XDG_CONFIG_HOME = "/home/runner/.config"
-
-[nix]
-channel = "stable-21_11"
-
-[gitHubImport]
-requiredFiles = [".replit", "replit.nix", ".config"]
+ttvdropbot_autoclaim= "false"
+ttvdropbot_autopoints= "false"
+ttvdropbot_interval="60000"
+ttvdropbot_retryinterval="60000"

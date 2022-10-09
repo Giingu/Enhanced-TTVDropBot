@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/functions/startWatching.ts"],
+  "sourcesContent": ["import winston from \"winston\";\nimport chalk from \"chalk\";\nimport {userdata} from \"../index\" ;\nimport {WatchingEventHandlerStart} from \"./handler/watchpageHandler\";\n\nexport async function startWatching() {\n    let channelLogin:string = ''\n    for await (const Drops of userdata.drops) {\n        if (Drops.dropname === userdata.startDrop) {\n            channelLogin = Drops.foundlivech[0]\n        }\n    }\n\n    winston.silly(\" \")\n    winston.info(chalk.gray('Starting to watch..'), {event: \"progress\"})\n\n    //Start WatchingEventHandler\n    await WatchingEventHandlerStart(channelLogin)\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA,qBAAoB;AACpB,mBAAkB;AAClB,eAAuB;AACvB,8BAAwC;AAExC,+BAAsC;AAClC,MAAI,eAAsB;AAC1B,mBAAiB,SAAS,kBAAS,OAAO;AACtC,QAAI,MAAM,aAAa,kBAAS,WAAW;AACvC,qBAAe,MAAM,YAAY;AAAA;AAAA;AAIzC,yBAAQ,MAAM;AACd,yBAAQ,KAAK,qBAAM,KAAK,wBAAwB,EAAC,OAAO;AAGxD,QAAM,uDAA0B;AAAA;",
+  "names": []
+}
