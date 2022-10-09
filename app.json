@@ -1,12 +1,56 @@
 {
-  "name": "TTVDropBot",
-  "description": "Twitch Drop Bot. Automaticlly Farms every Twitch Drop available like Rust for ya and now also your Custom Channel's ",
-  "keywords": [
-    "Bot",
-    "Twitch",
-    "Rust",
-	"Webhook"
-  ],
-  "repository": "https://github.com/PockySweet/TTVDropBot-Fix",
-  "logo": "https://i.imgur.com/2WtgNe4.png"
+  "name": "Enhanced TTVDropBot",
+  "description": "Enhanced Twitch Drop Bot. Automaticlly Farms every Twitch Drop, Point & Subscription available like Rust for you and use Custom Channels",
+  "repository": "https://github.com/PockySweet/Enhanced-TTVDropBot",
+  "logo": "https://i.imgur.com/1GsJiTG.png",
+  "website": "https://discord.gg/rV26FZ2upF",
+  "success_url": "https://discord.gg/rV26FZ2upF",
+  "keywords": [ "Bot", "Twitch", "Rust", "Webhook", "Discord" ],
+   "env": {
+      "ttvdropbot_token": {
+         "description": "Your main account's token, used for redeeming the gift.",
+         "required": true,
+	 "value": "YOUR TOKEN HERE"
+      },
+      "ttvdropbot_games": {
+         "description": "The Games the bot should watch.",
+         "required": false,
+         "value": "Rust Overwatch_2 VALORANT Halo_Infinite Splitgate The_Elder_Scrolls_Online Albion_Online Shell_Shockers Omega_Strikers Eternal_Return PUBG:_BATTLEGROUNDS Gwent:_The_Witcher_Card_Game Second_Extinction New_World Crowz Tanki_Online Dragon_Raja Super_Animal_Royale Conqueror's_Blade Fortnite Black_Desert Tom_Clancy's_Rainbow_Six_Siege Lost_Ark Rocket_League Myth_of_Empires Sea_of_Thieves Warhammer_Online:_Age_of_Reckoning Anno_1800 Infestation:_The_New_Z Paladins SMITE Goose_Goose_Duck Leap World_of_Warships World_of_Tanks"
+      },
+      "ttvdropbot_webhook": {
+         "description": "Put here your discord webhook url if you wish to receive messages.",
+         "required": false,
+         "value": "DiscordWebhookURL"
+      },
+      "ttvdropbot_webhookevents": {
+         "description": "Set what events should be sent via the webhook.",
+         "required": false,
+         "value": "claim newdrop newgame progress start error getresult"
+      },
+      "ttvdropbot_autoclaim": {
+         "description": "⚠️ (If you have crashes or errors when claiming drops make sure this is still on false!) Allow the bot to auto claim drops or not.",
+         "required": true,
+         "value": "false"
+      },
+      "ttvdropbot_autopoints": {
+         "description": "⚠️ (If you have crashes or errors when collecting points make sure this is still on false!) Allow the bot to auto collect points or not.",
+         "required": true,
+         "value": "false"
+      },
+      "ttvdropbot_interval": {
+         "description": "The progress interval in ms (Recommended is 60000 ms anything under could cause twitch blocking your request).",
+         "required": false,
+	 "value": "60000"
+      },
+      "ttvdropbot_retryinterval": {
+         "description": "The retry interval in ms (Recommended is 60000 ms anything under could cause twitch blocking your request).",
+         "required": false,
+	 "value": "60000"
+      },
+      "ttvdropbot_waitforchannels": {
+         "description": "If set to false the Bot will no longer wait 5 Minutes for new Channels to come online. It will switch to another game instead.",
+         "required": false,
+	 "value": "true"
+      }
+   }
 }
