@@ -1,5 +1,5 @@
 compile = "./.config/build.sh"
-run = "npm install && node ./build/index.js --displayless"
+run = "npm run start:production"
 entrypoint = "index.ts"
 
 [packager]
@@ -11,3 +11,7 @@ ttvdropbot_autoclaim= "false"
 ttvdropbot_autopoints= "false"
 ttvdropbot_interval="60000"
 ttvdropbot_retryinterval="60000"
+XDG_CONFIG_HOME = "/home/runner/.config"
+
+[nix]
+channel = "stable-21_11"
