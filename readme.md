@@ -395,7 +395,8 @@ Options:
                                     display-less mode. [boolean]
 --waitforchannels, --waitonline     Disable waitforchannels, forcing the bot to not wait 
                                     for other channels with drops instead switch the game. [boolean]
---autoclaim                         Enable autoclaim. [boolean]
+--autoclaim                         Enable auto claiming drops. [boolean]
+--autopoints                        Enable auto collection of points. [boolean]
 --log                               Enable logging to file. [boolean]
 --usekeepalive                      Enable Express KeepAlive. [boolean]
 --tray                              Start app in the tray. [boolean]
@@ -414,7 +415,6 @@ Krunker and Elite: Dangerous.
 --token yourkindalongtoken                Sets the your current twitch auth
                                           token, overwriting any in
                                           twitch-session.json.
---autopoints                         Enable autopoints. [boolean]
 
 ```
 
