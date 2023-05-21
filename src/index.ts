@@ -2,7 +2,7 @@ export const version = "2.0.0.4";
 import {userdataclass} from "./Data/userdata";
 export let userdata = new userdataclass();
 import chalk from "chalk";
-import CheckVersion from "./Checks/versionCheck"
+// import CheckVersion from "./Checks/versionCheck"
 import GetSettings, {logimportantvalues} from "./functions/get/getSettings"
 import GetWatchOption from "./functions/get/getWatchOption"
 import {askWhatDropToStart, askWhatGameToWatch, getTwitchDrops} from "./functions/get/getTwitchDrops"
@@ -25,7 +25,7 @@ const TwitchGQL = require("@zaarrg/twitch-gql-ttvdropbot").Init();
     await matchArgs();
     await setRetries();
     await logimportantvalues()
-    await CheckVersion(version)
+    // await CheckVersion(version)
     //Http Keep Alive
     if (userdata.settings.UseKeepAlive) keepAlive();
     //Login
