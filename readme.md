@@ -33,14 +33,14 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 
 <h1></h1>
 <p align="center">
-  <a href="https://github.com/PockySweet/Enhanced-TTVDropBot/issues">
-    <img src="https://img.shields.io/github/stars/PockySweet/Enhanced-TTVDropBot?color=333&style=for-the-badge&logo=github" alt="@PockySweet/Enhanced-TTVDropBot issues"/>
+  <a href="https://github.com/Giingu/Enhanced-TTVDropBot/issues">
+    <img src="https://img.shields.io/github/stars/Giingu/Enhanced-TTVDropBot?color=333&style=for-the-badge&logo=github" alt="@Giingu/Enhanced-TTVDropBot issues"/>
   </a>
-    <a href="https://github.com/PockySweet/Enhanced-TTVDropBot/pulls">
-    <img src="https://img.shields.io/github/commit-activity/y/PockySweet/Enhanced-TTVDropBot?color=blue&style=for-the-badge&logo=github" alt="@PockySweet/Enhanced-TTVDropBot pull requests"/>
+    <a href="https://github.com/Giingu/Enhanced-TTVDropBot/pulls">
+    <img src="https://img.shields.io/github/commit-activity/y/Giingu/Enhanced-TTVDropBot?color=blue&style=for-the-badge&logo=github" alt="@Giingu/Enhanced-TTVDropBot pull requests"/>
   </a>
-  <a href="https://github.com/PockySweet/Enhanced-TTVDropBot/pulls">
-    <img src="https://img.shields.io/github/last-commit/PockySweet/Enhanced-TTVDropBot?color=blue&style=for-the-badge&logo=github" alt="PockySweet/Enhanced-TTVDropBot requests"/>
+  <a href="https://github.com/Giingu/Enhanced-TTVDropBot/pulls">
+    <img src="https://img.shields.io/github/last-commit/Giingu/Enhanced-TTVDropBot?color=blue&style=for-the-badge&logo=github" alt="Giingu/Enhanced-TTVDropBot requests"/>
   </a>
       <br>
         <a href="https://discord.gg/rV26FZ2upF">
@@ -129,7 +129,7 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
     -e ttvdropbot_games="Sea_of_Thieves Rust Lost_Ark No_Man's_Sky" \
     -e ttvdropbot_autoclaim=true \
     -e ttvdropbot_autopoints=false \
-    ghcr.io/PockySweet/ttvdropbot/ttvdropbot:latest
+    ghcr.io/Giingu/ttvdropbot/ttvdropbot:latest
     ```
 ------------
 
@@ -139,9 +139,9 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 Learn how to install it [here](https://github.com/git-guides/install-git)
 
 1. Open a terminal (CMD, PowerShell, Shell) <br>
-1.5 Clone the **[Repository](https://github.com/PockySweet/Enhanced-TTVDropBot)** using the following command.
+1.5 Clone the **[Repository](https://github.com/Giingu/Enhanced-TTVDropBot)** using the following command.
     ```bash
-    git clone https://github.com/PockySweet/Enhanced-TTVDropBot
+    git clone https://github.com/Giingu/Enhanced-TTVDropBot
     ```
 
 2. Install NPM packages.
@@ -159,9 +159,9 @@ Learn how to install it [here](https://github.com/git-guides/install-git)
 
 <p><img src="https://user-images.githubusercontent.com/79219650/194732062-568f67d2-7276-4bba-8ec7-b5aaca802fe3.png" alt="NPM Only" width="200"></p>
 
-0. Download the **[Repository](https://github.com/PockySweet/Enhanced-TTVDropBot/releases/download/v1.4.0/Enhanced-TTVDropBot.zip)** & extract it on a folder<br>
+0. Download the **[Repository](https://github.com/Giingu/Enhanced-TTVDropBot/releases/download/v1.4.0/Enhanced-TTVDropBot.zip)** & extract it on a folder<br>
 You can download the latest version with the instructions on the image<br>
-Or through our releases by [clicking here](https://github.com/PockySweet/Enhanced-TTVDropBot/releases/download/v1.4.0/Enhanced-TTVDropBot.zip)
+Or through our releases by [clicking here](https://github.com/Giingu/Enhanced-TTVDropBot/releases/download/v1.4.0/Enhanced-TTVDropBot.zip)
 <img src="https://user-images.githubusercontent.com/79219650/194731003-4a953740-6951-43df-b2ed-28ea919ff87e.png" alt="How to download" height="240">
 
 1. Open a console / terminal (CMD, PowerShell, Shell) and go to the location of the extracted folder.
@@ -200,14 +200,14 @@ Or through our releases by [clicking here](https://github.com/PockySweet/Enhance
 **2. Step**
 
 <p align="center">
-     <b>Select <code>Twitch Drops</code> to watch a Twitch Campaign or <code>Custom Channels</code> if you want to add your own channels. Refer to <a href="https://github.com/PockySweet/Enhanced-TTVDropBot/#step-by-step-usage-custom-channels">Step by Step Usage: Custom Channels</a> for those.</b><br/>
+     <b>Select <code>Twitch Drops</code> to watch a Twitch Campaign or <code>Custom Channels</code> if you want to add your own channels. Refer to <a href="https://github.com/Giingu/Enhanced-TTVDropBot/#step-by-step-usage-custom-channels">Step by Step Usage: Custom Channels</a> for those.</b><br/>
 </p>
 
 ![Twitch Drops](https://i.imgur.com/DRqIkpz.png)
 
 **3. Step**
 <p align="center">
-    <b>Select the campaign you want to start watching. If you want to only watch certain campaign and not all refer to <a href="https://github.com/PockySweet/Enhanced-TTVDropBot/#prioritylist">Settings: Priority list</a></b><br/>
+    <b>Select the campaign you want to start watching. If you want to only watch certain campaign and not all refer to <a href="https://github.com/Giingu/Enhanced-TTVDropBot/#prioritylist">Settings: Priority list</a></b><br/>
 </p>
 
 ![Twitch Drops](https://i.imgur.com/CMuV729.png)
@@ -309,7 +309,7 @@ Or through our releases by [clicking here](https://github.com/PockySweet/Enhance
     <b>Close the Terminal and go to Settings then Reveal Config Vars</b><br/>
     <b>Now type in as key <code>ttvdropbot_token</code> and as value your copied token and click add</b><br/>
     <b>You can find more environment variables</b>
-      <a href="https://github.com/PockySweet/Enhanced-TTVDropBot#%EF%B8%8F-environment-variables">here</a>
+      <a href="https://github.com/Giingu/Enhanced-TTVDropBot#%EF%B8%8F-environment-variables">here</a>
 </p>
 
 ![Twitch Drops](https://i.imgur.com/EnB36ih.png)
@@ -348,7 +348,7 @@ Down below you can find the settings Variables and what they do.
 - Will log important values to the console for debugging.
 
 ### Displayless
-- Give the ability to use the bot fully automated with no user input needed. Especially useful for gui-less systems. See [Ubuntu - No Gui](https://github.com/PockySweet/Enhanced-TTVDropBot/#ubuntu)
+- Give the ability to use the bot fully automated with no user input needed. Especially useful for gui-less systems. See [Ubuntu - No Gui](https://github.com/Giingu/Enhanced-TTVDropBot/#ubuntu)
 
 ### ForceCustomChannel
 - Force the bot to watch Custom Channels, only useful for display-less mode.
@@ -386,7 +386,7 @@ Down below you can find the settings Variables and what they do.
 
 ## ✏️ **Start Arguments**
 
-All available start Arguments, basically everything which is also in the [settings.json](https://github.com/PockySweet/Enhanced-TTVDropBot#-settings) file.
+All available start Arguments, basically everything which is also in the [settings.json](https://github.com/Giingu/Enhanced-TTVDropBot#-settings) file.
 
 ```bash
 ./Enhanced-TTVDropBot.exe --help
@@ -481,7 +481,7 @@ ttvdropbot_autopoints = true || false
 - Pretty simple, should the bot farm Points or not.
 
 ### Editing already Added Channel's
-- You can always edit Channel's which are already added in the [CustomChannels.json]('https://github.com/PockySweet/Enhanced-TTVDropBot/#example-customchannelsjson').
+- You can always edit Channel's which are already added in the [CustomChannels.json]('https://github.com/Giingu/Enhanced-TTVDropBot/#example-customchannelsjson').
 
 
 ---
@@ -539,14 +539,14 @@ ttvdropbot_autopoints = true || false
 
 ## 🎉 Enjoy the bot and hopefully its helpful!
 
-[![GitHub's followers](https://img.shields.io/github/followers/PockySweet.svg?style=social)](https://github.com/PockySweet)
-[![GitHub stars](https://img.shields.io/github/stars/PockySweet/Enhanced-TTVDropBot.svg?style=social)](https://github.com/PockySweet/Enhanced-TTVDropBot/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/PockySweet/Enhanced-TTVDropBot.svg?style=social)](https://github.com/PockySweet/Enhanced-TTVDropBot/watchers)
-[![GitHub forks](https://img.shields.io/github/forks/PockySweet/Enhanced-TTVDropBot.svg?style=social)](https://github.com/PockySweet/Enhanced-TTVDropBot/network/members)
+[![GitHub's followers](https://img.shields.io/github/followers/Giingu.svg?style=social)](https://github.com/Giingu)
+[![GitHub stars](https://img.shields.io/github/stars/Giingu/Enhanced-TTVDropBot.svg?style=social)](https://github.com/Giingu/Enhanced-TTVDropBot/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/Giingu/Enhanced-TTVDropBot.svg?style=social)](https://github.com/Giingu/Enhanced-TTVDropBot/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/Giingu/Enhanced-TTVDropBot.svg?style=social)](https://github.com/Giingu/Enhanced-TTVDropBot/network/members)
 
 If you like my work feel free to buy me a coffee. ☕
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://ko-fi.com/PockySweet)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://ko-fi.com/Giingu)
 
 Have fun and Enjoy! 😃
 
@@ -563,6 +563,6 @@ Discord: - Vyper#1964
 
 > Distributed under the MIT License. See LICENSE for more information.⚠️
 
-_Modified with a lot of ❤️❤️ by **[@PockySweet](https://github.com/PockySweet)**_<br>
+_Modified with a lot of ❤️❤️ by **[@Giingu](https://github.com/Giingu)**_<br>
 _Log-in tutorial & claim switch by **[@cyberofficial](https://github.com/cyberofficial)**_<br>
 _Originally made by **[@Zarg](https://github.com/Zaarrg)**_
